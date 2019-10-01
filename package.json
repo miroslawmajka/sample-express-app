@@ -1,12 +1,16 @@
 {
   "name": "sample-express-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sample Express Web Application",
   "scripts": {
     "lint": "eslint --color .",
     "start": "forever --minUptime 500 --spinSleepTime 2000 start src/bin/www",
     "stop": "forever stopall",
-    "restart": "npm stop && npm start"
+    "restart": "npm stop && npm start",
+    "debug": "node src/bin/www"
+  },
+  "bin": {
+    "sample-express-app-start": "./src/bin/www"
   },
   "repository": {
     "type": "git",
