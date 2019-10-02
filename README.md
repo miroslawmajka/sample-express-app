@@ -2,5 +2,5 @@
 
 Start the application:
 ```shell script
-npm restart
+npm start
 ```
