@@ -1,6 +1,6 @@
 {
   "name": "sample-express-app",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Sample Express Web Application",
   "scripts": {
     "lint": "eslint --color .",
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/miroslawmajka/sample-express-app.git"
   },
-  "author": "Miroslaw Majka <go2mirek@gmail.com>",
+  "author": "Miroslaw Majka",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/miroslawmajka/sample-express-app/issues"

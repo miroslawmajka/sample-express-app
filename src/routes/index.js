@@ -3,7 +3,7 @@ const router = express.Router();
 
 /* GET home page */
 router.get('/', (req, res, next) => {
-    res.render('index', { title: 'Cucumber Boilerplate Express' });
+    res.render('index', { title: 'Sample Express Web Application' });
 });
 
 module.exports = router;
