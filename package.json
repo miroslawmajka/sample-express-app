@@ -1,6 +1,6 @@
 {
   "name": "sample-express-app",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Sample Express Web Application",
   "scripts": {
     "lint": "eslint --color .",
